@@ -359,7 +359,7 @@ Enviar Pull Request.
 
 # 📸 Evidencias
 
-<span style="color:red">Las evidencias se cargaran en tu repositorio propio, una vez terminado cargar el URL en Classroom</span>
+***Las evidencias se debaran incluir en tu repositorio propio, una vez terminado cargar el URL resultante en Classroom.***
 
 ## Evidencia 1
 
