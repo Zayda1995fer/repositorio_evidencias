@@ -359,6 +359,8 @@ Enviar Pull Request.
 
 # 📸 Evidencias
 
+<span style="color:red">Las evidencias se cargaran en tu repositorio propio, una vez terminado cargar el URL en Classroom</span>
+
 ## Evidencia 1
 
 Captura del Fork creado.
