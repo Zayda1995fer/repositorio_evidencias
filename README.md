@@ -360,6 +360,12 @@ git log
 
 ## 🎯 Calificación Total
 
+```mermaid
+graph LR
+A[Client] --> B[Web Application]
+B --> C[Database]
+```
+
 **100 puntos**
 
 ---
