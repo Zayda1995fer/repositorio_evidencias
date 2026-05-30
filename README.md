@@ -1,63 +1,112 @@
-# 🚀 Práctica 01: Contribución a un Proyecto Open Source mediante Pull Request
+# 🚀 Práctica 01: Contribución a un Proyecto Open Source mediante Fork y Pull Request
 
-> 💡 **Objetivo:** Aplicar un flujo de trabajo profesional utilizando Git y GitHub mediante la clonación de un repositorio real, la creación de una rama de desarrollo, la modificación de documentación en Markdown y la generación de un Pull Request.
+## 🎯 Objetivo
+
+Aplicar un flujo de trabajo profesional utilizando Git y GitHub mediante la creación de un Fork de un repositorio Open Source, la clonación del repositorio personal, la creación de una rama de desarrollo, la modificación de documentación técnica y la generación de un Pull Request.
 
 ---
 
-## 🎯 Competencias a desarrollar
+# 📚 Competencias a desarrollar
 
 Al finalizar la práctica el estudiante será capaz de:
 
-* ✅ Clonar repositorios remotos.
-* ✅ Crear y administrar ramas.
-* ✅ Modificar archivos Markdown.
-* ✅ Registrar cambios mediante commits.
-* ✅ Sincronizar repositorios locales y remotos.
-* ✅ Crear Pull Requests.
-* ✅ Aplicar buenas prácticas de colaboración.
+* Realizar Forks de proyectos Open Source.
+* Clonar repositorios remotos.
+* Crear y administrar ramas.
+* Modificar documentación en Markdown.
+* Registrar cambios mediante commits.
+* Sincronizar repositorios locales y remotos.
+* Crear Pull Requests.
+* Aplicar flujos de colaboración profesional.
 
 ---
 
+# ⏱️ Duración
 
-## 📚 Repositorios sugeridos
-
-| 🌐 Proyecto | 🔗 URL                                           |
-| ----------- | ------------------------------------------------ |
-| Next.js     | https://github.com/vercel/next.js                |
-| Gatsby      | https://github.com/gatsbyjs/gatsby               |
-| Refine      | https://github.com/refinedev/refine              |
-| Open edX    | https://github.com/openedx/frontend-app-learning |
-| Kana Dojo   | https://github.com/lingdojo/kana-dojo            |
+**2 horas**
 
 ---
 
-## 🧩 Escenario
+# 🌐 Repositorios sugeridos
 
-Usted ha sido incorporado temporalmente al equipo de desarrollo de un proyecto Open Source.
+Seleccione uno de los siguientes proyectos:
 
-Su misión consiste en mejorar la documentación técnica del proyecto para facilitar la incorporación de nuevos desarrolladores.
-
-> ⚠️ Todas las modificaciones deberán realizarse exclusivamente sobre el archivo `README.md`.
+| Proyecto            | URL                                             |
+| ------------------- | ----------------------------------------------- |
+| Next.js             | https://github.com/vercel/next.js               |
+| Gatsby              | https://github.com/gatsbyjs/gatsby              |
+| Refine              | https://github.com/refinedev/refine             |
+| WebArena            | https://github.com/Anadee11/WebArena            |
+| Simple WebApp Flask | https://github.com/mmumshad/simple-webapp-flask |
 
 ---
 
-# 🛠️ Parte 1. Clonación del repositorio
+# 🏢 Escenario
 
-### Paso 1. Clonar el proyecto
+Has sido invitado a colaborar en un proyecto Open Source.
 
-```bash
-git clone URL_DEL_REPOSITORIO
+El equipo de desarrollo solicita mejorar la documentación para facilitar la incorporación de nuevos desarrolladores.
+
+Las modificaciones se realizarán exclusivamente sobre el archivo:
+
+```text
+README.md
 ```
 
-### Paso 2. Ingresar al proyecto
+---
 
-```bash
+# 🔀 Parte 1. Realizar Fork
 
-cd nombre-del-proyecto
+1. Ingresar al repositorio seleccionado.
+2. Presionar el botón:
 
+```text
+Fork
 ```
 
-### Paso 3. Verificar estado
+3. Crear una copia en su cuenta personal de GitHub.
+
+Resultado esperado:
+
+```text
+Repositorio Original
+        ↓
+      Fork
+        ↓
+Repositorio Personal
+```
+
+Ejemplo:
+
+```text
+vercel/next.js
+        ↓
+usuario/next.js
+```
+
+---
+
+# 📥 Parte 2. Clonar el Fork
+
+Clonar el repositorio que se encuentra en su cuenta personal.
+
+```bash
+git clone https://github.com/USUARIO/REPOSITORIO.git
+```
+
+Ejemplo:
+
+```bash
+git clone https://github.com/jose/next.js.git
+```
+
+Ingresar al proyecto:
+
+```bash
+cd REPOSITORIO
+```
+
+Verificar:
 
 ```bash
 git status
@@ -65,9 +114,9 @@ git status
 
 ---
 
-# 🌿 Parte 2. Creación de la rama de desarrollo
+# 🌿 Parte 3. Crear rama de desarrollo
 
-Crear una nueva rama llamada:
+Crear una rama llamada:
 
 ```text
 dev
@@ -92,7 +141,36 @@ Resultado esperado:
 
 ---
 
-# 📝 Parte 3. Modificación del README
+# 🔗 Parte 4. Configurar repositorio original (upstream)
+
+Agregar referencia al proyecto original.
+
+```bash
+git remote add upstream URL_REPOSITORIO_ORIGINAL
+```
+
+Ejemplo:
+
+```bash
+git remote add upstream https://github.com/vercel/next.js.git
+```
+
+Verificar:
+
+```bash
+git remote -v
+```
+
+Resultado esperado:
+
+```text
+origin    https://github.com/usuario/next.js.git
+upstream  https://github.com/vercel/next.js.git
+```
+
+---
+
+# 📝 Parte 5. Modificar README.md
 
 Agregar la siguiente sección:
 
@@ -118,7 +196,9 @@ Lorem ipsum...
 
 ---
 
-# 🎯 Parte 4. Actividades obligatorias
+# 🎯 Parte 6. Actividades obligatorias
+
+*Estas son sobre el Proyecto a realizar en equipo*
 
 ## 🏆 Actividad A. Fortalezas del proyecto
 
@@ -128,13 +208,7 @@ Agregar:
 ## Project Strengths
 ```
 
-Describir:
-
-* ⭐ Fortaleza 1
-* ⭐ Fortaleza 2
-* ⭐ Fortaleza 3
-* ⭐ Fortaleza 4
-* ⭐ Fortaleza 5
+Describir al menos 5 fortalezas.
 
 ---
 
@@ -146,35 +220,27 @@ Agregar:
 ## Improvement Opportunities
 ```
 
-Describir:
-
-* 🔹 Mejora 1
-* 🔹 Mejora 2
-* 🔹 Mejora 3
-* 🔹 Mejora 4
-* 🔹 Mejora 5
+Describir al menos 5 oportunidades de mejora.
 
 ---
 
 ## 📊 Actividad C. Tabla Markdown
 
-```markdown
-| Technology | Purpose         |
-|------------|-----------------|
-| React      | Frontend        |
-| Node.js    | Backend         |
-| GitHub     | Version Control |
-```
+Agregar una tabla de tecnologías utilizadas.
 
 ---
 
 ## 🗺️ Actividad D. Diagrama Mermaid
 
+Agregar un diagrama de arquitectura.
+
+Ejemplo:
+
 ````markdown
 ```mermaid
 graph LR
-A[Client] --> B[Web Application]
-B --> C[Database]
+A[Cliente] --> B[Aplicación Web]
+B --> C[Base de Datos]
 ```
 ````
 
@@ -182,11 +248,7 @@ B --> C[Database]
 
 ## 📋 Actividad E. Requerimientos funcionales
 
-Agregar:
-
-```markdown
-## Functional Requirements
-```
+Definir al menos 10 requerimientos funcionales.
 
 Ejemplo:
 
@@ -195,25 +257,17 @@ RF-01 El sistema deberá permitir el registro de usuarios.
 RF-02 El sistema deberá permitir la autenticación de usuarios.
 ```
 
-Mínimo: **10 requerimientos funcionales.**
-
 ---
 
-# 💾 Parte 5. Registro de cambios
+# 💾 Parte 7. Registrar cambios
+
+Agregar cambios:
 
 ```bash
 git add README.md
 ```
 
-Verificar:
-
-```bash
-git status
-```
-
----
-
-# 📌 Parte 6. Commit
+Crear commit:
 
 ```bash
 git commit -m "docs: improve project documentation"
@@ -227,7 +281,9 @@ git log --oneline
 
 ---
 
-# ☁️ Parte 7. Publicación de cambios
+# ☁️ Parte 8. Publicar cambios
+
+Enviar la rama al Fork personal.
 
 ```bash
 git push origin dev
@@ -235,25 +291,50 @@ git push origin dev
 
 ---
 
-# 🔄 Parte 8. Actualización de la rama
+# 🔄 Parte 9. Sincronizar con proyecto original
+
+Actualizar desde el repositorio principal.
 
 ```bash
 git checkout main
-git pull origin main
 
+git fetch upstream
+
+git merge upstream/main
+```
+
+Regresar a la rama de trabajo:
+
+```bash
 git checkout dev
-git merge main
 ```
 
 ---
 
-# 🔀 Parte 9. Creación del Pull Request
+# 🔀 Parte 10. Crear Pull Request
 
-Configurar:
+Ingresar a GitHub.
+
+Seleccionar:
 
 ```text
-Base Branch: main
-Compare Branch: dev
+Compare & Pull Request
+```
+
+Configuración:
+
+```text
+Base Repository:
+Repositorio Original
+
+Base Branch:
+main
+
+Head Repository:
+Fork Personal
+
+Compare Branch:
+dev
 ```
 
 Título:
@@ -262,59 +343,91 @@ Título:
 Improve README documentation
 ```
 
+Descripción:
+
+```markdown
+## Changes
+
+- Added contributor information
+- Added strengths analysis
+- Added improvement opportunities
+- Added Mermaid diagram
+- Added functional requirements
+
+## Evidence
+
+README updated successfully.
+```
+
+Enviar Pull Request.
+
 ---
 
-# 📸 Evidencias a entregar
+# 📸 Evidencias
 
-## 📍 Evidencia 1
+## Evidencia 1
 
-```bash
-git branch
-```
+Captura del Fork creado.
 
-## 📍 Evidencia 2
+---
 
-```bash
-git status
-```
+## Evidencia 2
 
-## 📍 Evidencia 3
-
-```bash
-git log --oneline
-```
-
-## 📍 Evidencia 4
+Resultado de:
 
 ```bash
 git remote -v
 ```
 
-## 📍 Evidencia 5
+---
+
+## Evidencia 3
+
+Resultado de:
+
+```bash
+git branch
+```
+
+---
+
+## Evidencia 4
+
+Resultado de:
+
+```bash
+git log --oneline
+```
+
+---
+
+## Evidencia 5
 
 Captura del Pull Request.
 
-## 📍 Evidencia 6
+---
+
+## Evidencia 6
 
 URL del Pull Request.
 
 ---
 
-# 🏅 Reto adicional (Puntos Extra)
+# 🏅 Reto adicional
 
-Crear una rama:
+Crear una segunda rama:
 
 ```bash
 git checkout -b feature/profile
 ```
 
-Agregar una sección:
+Agregar una nueva sección:
 
 ```markdown
 ## Team Members
 ```
 
-Posteriormente:
+Realizar:
 
 ```bash
 git add .
@@ -330,17 +443,19 @@ feature/profile → dev
 
 ---
 
-# 📖 Comandos Git utilizados
+# 📖 Comandos utilizados
 
 ```bash
 git clone
-git status
+git remote
+git remote add
+git fetch
 git branch
 git checkout
+git status
 git add
 git commit
 git push
-git pull
 git merge
 git log
 ```
@@ -349,25 +464,16 @@ git log
 
 # 📊 Criterios de evaluación
 
-| Criterio                     | Valor |
-| ---------------------------- | ----- |
-| 🚀 Clonación del repositorio | 10%   |
-| 🌿 Creación de rama dev      | 15%   |
-| 📝 Modificaciones al README  | 30%   |
-| 📌 Uso correcto de commits   | 15%   |
-| 🔀 Pull Request              | 20%   |
-| 📸 Evidencias                | 10%   |
+| Criterio                  | Valor |
+| ------------------------- | ----: |
+| Fork del repositorio      |   15% |
+| Configuración de upstream |   10% |
+| Uso de rama dev           |   15% |
+| Modificaciones al README  |   30% |
+| Pull Request              |   20% |
+| Evidencias                |   10% |
 
 ## 🎯 Calificación Total
 
-```mermaid
-graph LR
-A[Client] --> B[Web Application]
-B --> C[Database]
-```
-
 **100 puntos**
-
----
-
-> 💡 **Consejo profesional:** Realiza commits frecuentes, utiliza mensajes descriptivos y verifica siempre el estado del repositorio mediante `git status` antes de realizar un push.
+status` antes de realizar un push.
