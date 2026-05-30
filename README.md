@@ -1,4 +1,4 @@
-# 🚀 Práctica 01: Contribución a un Proyecto Open Source mediante Fork y Pull Request
+# 🚀 Práctica 03: Contribución a un Proyecto Open Source mediante Fork y Pull Request
 
 ## 🎯 Objetivo
 
@@ -18,12 +18,6 @@ Al finalizar la práctica el estudiante será capaz de:
 * Sincronizar repositorios locales y remotos.
 * Crear Pull Requests.
 * Aplicar flujos de colaboración profesional.
-
----
-
-# ⏱️ Duración
-
-**2 horas**
 
 ---
 
@@ -476,4 +470,5 @@ git log
 ## 🎯 Calificación Total
 
 **100 puntos**
-status` antes de realizar un push.
+
+
