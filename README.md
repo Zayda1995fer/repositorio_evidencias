@@ -77,6 +77,8 @@ vercel/next.js
         ↓
 usuario/next.js
 ```
+<img width="1913" height="1032" alt="image" src="https://github.com/user-attachments/assets/01e2ed4c-ecce-415d-aa0f-bdf169b9905b" />
+<img width="1913" height="1026" alt="image" src="https://github.com/user-attachments/assets/b1a551ba-0179-4f09-9e65-4a5f8d0905b9" />
 
 ---
 
@@ -105,8 +107,10 @@ Verificar:
 ```bash
 git status
 ```
+<img width="1447" height="657" alt="image" src="https://github.com/user-attachments/assets/32529a7c-357b-4e2a-b6a1-f047c3082e8e" />
 
 ---
+
 
 # 🌿 Parte 3. Crear rama de desarrollo
 
@@ -132,6 +136,9 @@ Resultado esperado:
 * dev
   main
 ```
+
+<img width="1431" height="242" alt="image" src="https://github.com/user-attachments/assets/8eb448ea-0580-4882-966d-cfff6f840041" />
+
 
 ---
 
@@ -162,6 +169,8 @@ origin    https://github.com/usuario/next.js.git
 upstream  https://github.com/vercel/next.js.git
 ```
 
+<img width="1471" height="210" alt="image" src="https://github.com/user-attachments/assets/80784db1-5a59-4412-849f-33eb646bf743" />
+
 ---
 
 # 📝 Parte 5. Modificar README.md
@@ -187,6 +196,7 @@ Agregar la siguiente sección:
 
 Lorem ipsum...
 ```
+<img width="843" height="741" alt="image" src="https://github.com/user-attachments/assets/9aa74ddd-62e1-45fd-abe7-ed67af5a1f4b" />
 
 ---
 
@@ -251,6 +261,11 @@ RF-01 El sistema deberá permitir el registro de usuarios.
 RF-02 El sistema deberá permitir la autenticación de usuarios.
 ```
 
+
+<img width="1131" height="1002" alt="image" src="https://github.com/user-attachments/assets/6b82f1e1-a3c1-45cb-81dd-b0e624b32855" />
+
+<img width="1478" height="1036" alt="image" src="https://github.com/user-attachments/assets/841a6148-940a-40f8-9fd1-b86ba2c74e49" />
+
 ---
 
 # 💾 Parte 7. Registrar cambios
@@ -272,6 +287,7 @@ Verificar:
 ```bash
 git log --oneline
 ```
+<img width="1892" height="1052" alt="image" src="https://github.com/user-attachments/assets/cca71179-cb77-4736-92ad-3b4b75773432" />
 
 ---
 
@@ -282,6 +298,7 @@ Enviar la rama al Fork personal.
 ```bash
 git push origin dev
 ```
+<img width="955" height="380" alt="image" src="https://github.com/user-attachments/assets/cc967416-914c-4beb-85de-351e9bcc8135" />
 
 ---
 
@@ -304,6 +321,9 @@ git checkout dev
 ```
 
 ---
+
+<img width="927" height="392" alt="image" src="https://github.com/user-attachments/assets/16d50ed7-46dd-45ec-8263-45c1848d855e" />
+
 
 # 🔀 Parte 10. Crear Pull Request
 
@@ -355,59 +375,14 @@ README updated successfully.
 
 Enviar Pull Request.
 
----
+<img width="1895" height="813" alt="image" src="https://github.com/user-attachments/assets/233a1bf9-d456-44e5-9aed-3d8d45517af4" />
 
-# 📸 Evidencias
+<img width="1918" height="955" alt="image" src="https://github.com/user-attachments/assets/027f1b29-88dd-4953-8601-e1c9554278e1" />
 
-***Las evidencias se debaran incluir en tu repositorio propio, una vez terminado cargar el URL resultante en Classroom.***
-
-## Evidencia 1
-
-Captura del Fork creado.
+https://github.com/mmumshad/simple-webapp-flask/pull/78
 
 ---
 
-## Evidencia 2
-
-Resultado de:
-
-```bash
-git remote -v
-```
-
----
-
-## Evidencia 3
-
-Resultado de:
-
-```bash
-git branch
-```
-
----
-
-## Evidencia 4
-
-Resultado de:
-
-```bash
-git log --oneline
-```
-
----
-
-## Evidencia 5
-
-Captura del Pull Request.
-
----
-
-## Evidencia 6
-
-URL del Pull Request.
-
----
 
 # 🏅 Reto adicional
 
@@ -436,6 +411,10 @@ Generar Pull Request:
 ```text
 feature/profile → dev
 ```
+
+<img width="1872" height="878" alt="image" src="https://github.com/user-attachments/assets/4a6c3ac3-283f-496d-8305-5a5d8a4ea8f0" />
+<img width="610" height="76" alt="image" src="https://github.com/user-attachments/assets/025879c7-997c-4ab6-b5c7-cbd052727e04" />
+
 
 ---
 
@@ -472,5 +451,4 @@ git log
 ## 🎯 Calificación Total
 
 **100 puntos**
-
 
