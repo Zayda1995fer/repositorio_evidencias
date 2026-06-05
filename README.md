@@ -438,6 +438,11 @@ feature/profile → dev
 ```
 
 ---
+## Instalación
+## Uso
+## Contribución
+## Licencia
+---
 
 # 📖 Comandos utilizados
 
