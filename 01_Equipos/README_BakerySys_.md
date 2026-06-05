@@ -51,4 +51,4 @@ https://github.com/PaolaLpez/Panader-a.git
 
 > *Nota: Reemplazar con la URL real del repositorio una vez creado.*
 
-
+![alt text](image.png)
