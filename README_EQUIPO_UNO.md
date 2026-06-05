@@ -26,3 +26,6 @@ Plataforma web de comercio electrónico orientada a conectar vendedores y compra
 
 ## 🔗 Repositorio del Proyecto
 https://github.com/Pedro-Uriel-Perez/portafolio-profesional-web
+
+
+<img width="1918" height="1091" alt="image" src="https://github.com/user-attachments/assets/20fd9944-0bab-4f73-8756-c1b1f6abc233" />
