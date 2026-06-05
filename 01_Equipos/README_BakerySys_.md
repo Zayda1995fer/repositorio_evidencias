@@ -1,4 +1,4 @@
-# Información del Equipo de Desarrollo
+# Información del Equipo de Desarrolloo
 
 ¡Bienvenidos! 👨‍💻👩‍💻
 
